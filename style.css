@@ -1,0 +1,32 @@
+.box{
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.left-text{
+	text-align: left;
+}
+
+.contenedor{
+
+	margin: auto;
+	width: 98%;
+	padding: 20px;
+}
+
+.pad-but{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 25%;
+}
+
+ /*No borrar! es el borde para la foto.*/
+/*.slant {
+	top: 0;
+	z-index: 1;
+	position: absolute;
+	border-style: solid;
+	border-width: 190px 0 0 30px;
+	border-color: rgba(223, 50, 50, 0) transparent transparent blue;
+}
+*/
