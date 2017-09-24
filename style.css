@@ -1,6 +1,7 @@
 .box{
 	margin-top: 20px;
 	padding: 20px;
+	font-family: 'Muli', sans-serif;
 }
 
 .left-text{
@@ -18,6 +19,21 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left: 25%;
+}
+
+.by{
+	font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+.skillbar-bar {
+    height: 4px;
+    width: 0;
+    background: #E58856;
+}
+
+.white{
+	color: white;
+	 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
 }
 
  /*No borrar! es el borde para la foto.*/

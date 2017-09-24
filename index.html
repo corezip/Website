@@ -3,16 +3,22 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="style.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Muli" rel="stylesheet">
+
 <head>
 	<title>Prueba</title>
 </head>
 <body>
+<header style="position: relative;">
+<img src="books.jpg" style="height: 350px;">
+</header>
 
-<div class="contenedor">
+
+<div class="contenedor" style="position: absolute; top: 80px;">
 
 <!-- Contacto Personal -->
-	<div class="box" id="#info">
-		<div class="row justify-content-center align-self-center" style="background-color: #088A29;">
+	<div class="box white" id="info">
+		<div class="row justify-content-center align-self-center" style="background-color: #088A29; text-decoration-color: white">
 			<div class="col-md-8" style="border-top-style: inset; border-bottom-style: inset; border-left-style: inset; border-color: #A9F5E1">
 				<h1>Gerardo Solis</h1>
 				<h2>Front-end Developer</h2>
@@ -29,13 +35,13 @@
 
 	<h2 style="text-align: center;">PORTFOLIO  <img src="icon/safe.png" style="width: 50px; height: auto;"></h2>
 <!--  Portafolio -->
-	<div class="box" id="#portfolio">
+	<div class="box" id="portfolio">
 		<div class="row justify-content-center align-self-center">
 			<div class="col-md-12" style="border: groove;">
 			<p>Hello! I’m John Doe. Senior Web Developer with over 13 years of experience specializing in front end development. Experienced with all stages of the development cycle for dynamic web projects.Having an in-depth knowledge including advanced HTML5, CSS, CSS3, SASS, LESS, JSON, XML, Java, JavaScript, JQuery, Angular JS. Strong background in management and leadership.</p>
-				<div class="col-md-12">
-					<button class="pad-but">Download CV</button>
-					<button class="pad-but">Github</button>
+				<div class="col-md-12" style="border-top: groove;">
+					<button class="pad-but btn btn-default target">Download CV</button>
+					<button class="pad-but btn btn-default target">Github <img src="icon/git.png" style="width: 15px; height: auto;"></button>
 				</div>
 			</div>
 		</div>	
@@ -44,7 +50,7 @@
 
 	<h2 style="text-align: center;">LANGUAGE  <img src="icon/handshake.png" style="width: 50px; height: auto;"></h2>
 <!--  Idiomas -->
-	<div class="box" id="#idioma">
+	<div class="box" id="idioma">
 		<div class="row justify-content-center align-self-center" style="content: 500px;">
 			<div class="col-md-6" style="border: groove;" id="#español">
 				<div class="row justify-content-center align-self-center" style="content: 500px;">
@@ -72,7 +78,7 @@
 	<h2 style="text-align: center;">EDUCATION  <img src="icon/book.png" style="width: 50px; height: auto;"></h2>
 
 <!--  Academico -->
-	<div class="box" id="#academico">
+	<div class="box" id="academico">
 		<div class="row justify-content-center align-self-center">
 		<!-- Primer Row -->
 			<div class="col-md-12" style="border: groove;">
@@ -131,6 +137,13 @@
 			</div>
 		</div>	
 	</div>
+	<div class="box">
+	<div class="row justify-content-center align-self-center" style="border: groove;">
+		<div class="col-xs-12">
+			<h2 class="by">Created by Gerardo Solis</h2>
+		</div>
+	</div>
+</div>
 </div>
 </body>
-</html>":"
+</html>
