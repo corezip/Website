@@ -11,7 +11,7 @@
 .contenedor{
 
 	margin: auto;
-	width: 98%;
+	width: 100%;
 	padding: 20px;
 }
 
@@ -34,6 +34,14 @@
 .white{
 	color: white;
 	 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
+}
+
+.shadow{
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.i{
+	background-image: url("b.png");
 }
 
  /*No borrar! es el borde para la foto.*/
