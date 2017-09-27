@@ -44,7 +44,25 @@
 	background-image: url("b.png");
 }
 
- /*No borrar! es el borde para la foto.*/
+
+.a:hover {
+	color: #2C3539;
+	text-decoration: none;
+}
+
+.w:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.w-shadow{
+	color: white;
+	 text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.29);
+}
+
+ /*No borrar! es el borde par
+ la foto.*/
+
 /*.slant {
 	top: 0;
 	z-index: 1;
